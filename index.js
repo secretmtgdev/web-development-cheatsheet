@@ -1,13 +1,13 @@
 /**
  * @author Michael Wilson
  * @description The goal of this is to really put my web development skills to the test.
- * @version 1.0.1
+ * @version 1.0.2
  */
 
-import { injectPage } from "./helpers/page-injection.js";
+import { injectContent } from "./helpers/page-injection.js";
 
 (function() {
-  injectPage();
+  injectContent();
 
   /******************************* TEST PROTOTYPE *******************************/
   // Constructor function

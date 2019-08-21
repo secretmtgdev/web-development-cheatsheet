@@ -1,7 +1,7 @@
 /**
  * @author Michael Wilson
  * @description The purpose of this module is to inject the appropriate html files into their proper locations.
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 var segments = [
@@ -14,7 +14,7 @@ var segments = [
   "table-of-contents"
 ];
 
-function injectPage() {
+function injectContent() {
   segments.forEach(segment => {
     var injectionTarget = $(`#${segment}`);
     var injectionFile = `./site-segments/${segment}.html`;
@@ -22,4 +22,4 @@ function injectPage() {
   });
 }
 
-export { injectPage };
+export { injectContent };

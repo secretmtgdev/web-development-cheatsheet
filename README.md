@@ -1,5 +1,11 @@
 # Welcome to my Web Developer cheatsheet!
 
+## Running the project
+
+- run 'npm i -g server-static'
+- run 'server-static'
+- click on served static link
+
 ## Subjects Covered
 
 - HTML5
