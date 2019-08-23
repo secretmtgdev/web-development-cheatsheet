@@ -2,8 +2,8 @@
 
 ## Running the project
 
-- run 'npm i -g server-static'
-- run 'server-static'
+- run 'npm i -g static-server'
+- run 'static-server'
 - click on served static link
 
 ## Subjects Covered
