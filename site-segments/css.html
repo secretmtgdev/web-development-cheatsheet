@@ -4,6 +4,181 @@
 </article>
 <article id="common-properties">
   <h3>Common Properties</h3>
+  <section>
+    <h4>Display</h4>
+    <ul>
+      <li>Impacts the layout flow of an element</li>
+      <li>
+        Values:
+        <ul>
+          <li>
+            <strong><em>block</em></strong
+            >: Take up full width by default and height/width can be set
+          </li>
+          <li>
+            <strong><em>inline</em></strong
+            >: Wrap around the inner content, can't set height/width
+          </li>
+          <li>
+            <strong><em>inline-block</em></strong
+            >: Can appear on the same line as other elements and can set
+            height/width
+          </li>
+          <li>
+            <strong
+              ><em>none</em>: Element doesn't appear on page and no space is
+              allocated for it</strong
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h4>Width &amp; Height</h4>
+    <ul>
+      <li>Used to determine the size of a blockish element</li>
+      <li>
+        <strong><em>min-height</em></strong
+        >: Sets the smallest height that the element should be
+      </li>
+      <li>
+        <strong><em>max-height</em></strong
+        >: Sets the tallest that an element can get
+      </li>
+      <li>
+        <strong><em>min-width</em></strong
+        >: Sets the smallest width that the element should be
+      </li>
+      <li>
+        <strong><em>max-width</em></strong
+        >: Sets the widest that an element can get
+      </li>
+      <li>
+        Values:
+        <ul>
+          <li>
+            <strong><em>px</em></strong
+            >: Uses monitor pixels for displaying
+          </li>
+          <li>
+            <strong><em>em</em></strong
+            >: Based off of the parents font size of 'm'
+          </li>
+          <li>
+            <strong><em>rem</em></strong
+            >: Based off of the root font size of 'm'
+          </li>
+          <li>
+            <strong><em>%</em></strong
+            >: Bases off a certain size relative to the parent
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h4>Margin</h4>
+    <ul>
+      <li>Spacing of elements from one another</li>
+      <li>
+        <strong><em>margin: 0 auto;</em></strong> - Center a block with respect
+        to its parent
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h4>Padding</h4>
+    <ul>
+      <li>Space an elements content from its border</li>
+    </ul>
+  </section>
+  <section>
+    <h4>Border</h4>
+    <ul>
+      <li>
+        Surrounding porition of an elements content separating the padding and
+        the margin
+      </li>
+      <li>
+        Properties
+        <ul>
+          <li>
+            <strong><em>border-width</em></strong
+            >: How thick the border should be
+          </li>
+          <li>
+            <strong><em>border-style</em></strong
+            >: Styling of the border
+          </li>
+          <li>
+            <strong><em>border-color</em></strong
+            >: The color of the border
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h4>Float</h4>
+    <ul>
+      <li>Removed from the normal flow a page</li>
+      <li>Inline elements will wrap around it</li>
+      <li>Typically used for web layouts</li>
+    </ul>
+  </section>
+  <section>
+    <h4>Clearing Floats</h4>
+    <ul>
+      <li>
+        Some floats don't fill the same heigh as other ones causing non float
+        elements to be awkwardly pushed upward
+      </li>
+      <li>This can be fixed with a clear float on both sides</li>
+      <li>
+        Sometimes a container of divs collapses if the inner divs are floats,
+        this can be solved by using the after pseudo selector, setting content
+        to empty, display as a block, and clearing both sides of floats
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h4>Color</h4>
+    <ul>
+      <li>
+        <strong
+          ><em>hex</em>: #xxyyzz, first tuple maps to red, second to green, and
+          third to blue</strong
+        >
+      </li>
+      <li>
+        <strong
+          ><em>rgb</em>: rgb(xxx, yyy, zzz), range is from 0 to 256 for each
+          color</strong
+        >
+      </li>
+      <li>
+        <strong
+          ><em>rgba</em>: rgba(xxx, yyy, zzz, 0-1), same as rgb with an
+          additional value for opaqueness</strong
+        >
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h4>Background</h4>
+    <ul>
+      <li>Can set to a color</li>
+      <li>Can set to an image</li>
+      <li>Can set position relative to an element</li>
+    </ul>
+  </section>
+  <section>
+    <h4>Font</h4>
+    <li>Can set the font style, height, and size with em, rem, px</li>
+    <li>Can set the variant to all caps or lowercase</li>
+    <li>Can set the height of each line</li>
+  </section>
 </article>
 <article id="box-model">
   <h3>Box Model</h3>

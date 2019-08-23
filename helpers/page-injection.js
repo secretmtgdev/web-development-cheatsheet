@@ -15,7 +15,7 @@ var segments = [
 ];
 
 function injectContent() {
-  segments.forEach(segment => {
+  segments.forEach((segment, index) => {
     var injectionTarget = $(`#${segment}`);
     var injectionFile = `./site-segments/${segment}.html`;
     $(injectionTarget).load(injectionFile);
